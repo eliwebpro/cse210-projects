@@ -1,21 +1,8 @@
+
 {
     "version": "0.2.0",
     "configurations": [
-        {
-            "name": ".NET Core Launch (console)",
-            "type": "coreclr",
-            "request": "launch",
-            "preLaunchTask": "build",
-            "program": "${workspaceFolder}/csharp-prep/Prep1/bin/Debug/net8.0/Prep1.dll"
-,
-            "args": [],
-            "cwd": "${workspaceFolder}",
-            "stopAtEntry": false,
-            "console": "integratedTerminal",
-            "logging": {
-                "moduleLoad": false
-            }
-        },
+
         {
             "name": "Sandbox Project",
             "type": "coreclr",
@@ -28,6 +15,7 @@
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
+
         {
             "name": "C# Prep 1",
             "type": "coreclr",
@@ -40,6 +28,7 @@
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
+
         {
             "name": "C# Prep 2",
             "type": "coreclr",
@@ -52,6 +41,7 @@
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
+
         {
             "name": "C# Prep 3",
             "type": "coreclr",
@@ -64,6 +54,7 @@
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
+
         {
             "name": "C# Prep 4",
             "type": "coreclr",
@@ -76,6 +67,7 @@
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
+
         {
             "name": "C# Prep 5",
             "type": "coreclr",
@@ -88,6 +80,7 @@
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
+
         {
             "name": "Learning 02 (Resume)",
             "type": "coreclr",
@@ -100,6 +93,7 @@
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
+
         {
             "name": "Learning 03 (Fraction)",
             "type": "coreclr",
@@ -112,6 +106,7 @@
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
+
         {
             "name": "Learning 05 (Homework)",
             "type": "coreclr",
@@ -124,6 +119,7 @@
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
+
         {
             "name": "Learning 06 (Shapes)",
             "type": "coreclr",
@@ -136,6 +132,7 @@
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
+
         {
             "name": "Develop 02 (Journal)",
             "type": "coreclr",
@@ -148,6 +145,7 @@
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
+
         {
             "name": "Develop 03 (Scripture Memorizer)",
             "type": "coreclr",
@@ -160,9 +158,7 @@
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
-        {
-            "program": "${workspaceFolder}/bin/Debug/net8.0/Prep1.dll"
-        },
+
         {
             "name": "Develop 05 (Mindfulness)",
             "type": "coreclr",
@@ -175,6 +171,7 @@
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
+
         {
             "name": "Develop 06 (Goal Tracker)",
             "type": "coreclr",
@@ -187,6 +184,7 @@
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
+
         {
             "name": "Foundation 1 (YouTube)",
             "type": "coreclr",
@@ -199,6 +197,7 @@
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
+
         {
             "name": "Foundation 2 (Products)",
             "type": "coreclr",
@@ -211,6 +210,7 @@
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
         },
+
         {
             "name": "Foundation 3 (Exercise)",
             "type": "coreclr",
@@ -222,6 +222,7 @@
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
-        }
+        },
+
     ]
 }

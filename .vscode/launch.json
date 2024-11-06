@@ -6,7 +6,8 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/net7.0/YourAppName.dll",
+            "program": "${workspaceFolder}/csharp-prep/Prep1/bin/Debug/net8.0/Prep1.dll"
+,
             "args": [],
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,
@@ -160,6 +161,9 @@
             "stopAtEntry": false
         },
         {
+            "program": "${workspaceFolder}/bin/Debug/net8.0/Prep1.dll"
+        },
+        {
             "name": "Develop 05 (Mindfulness)",
             "type": "coreclr",
             "request": "launch",
@@ -218,6 +222,6 @@
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "stopAtEntry": false
-        },
+        }
     ]
 }

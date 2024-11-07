@@ -2,6 +2,20 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/csharp-prep/Prep1/bin/Debug/net8.0/Prep1.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "integratedTerminal",
+            "logging": {
+                "moduleLoad": false
+            }
+        },
 
         {
             "name": "Sandbox Project",

@@ -15,13 +15,13 @@ public class BreathingActivity : Activity
     while (duration > 0)
     {
         Console.WriteLine("Breathe in...");
-        ShowAnimation();  // Mostrar a animação de pontos enquanto respira
+        ShowAnimation();  
         duration -= 3;
 
         if (duration <= 0) break;
 
         Console.WriteLine("Breathe out...");
-        ShowAnimation();  // Mostrar a animação de pontos enquanto respira
+        ShowAnimation();  
         duration -= 3;
     }
     EndMessage();
@@ -32,16 +32,15 @@ private void ShowAnimation()
     string dots = "";
     int count = 0;
     
-    // Mostrar pontos para a animação
     while (count < 3)
     {
-        dots += ".";  // Adiciona um ponto
-        Console.Write(dots);  // Exibe os pontos
-        Thread.Sleep(1500);  // Pausa de 500ms
-        Console.Write("\b \b");  // Apaga o último ponto
-        count++;  // Incrementa o contador
+        dots += ".";  
+        Console.Write(dots); 
+        Thread.Sleep(1500);  /
+        Console.Write("\b \b"); 
+        count++; 
     }
-    Console.WriteLine();  // Pula para a próxima linha após a animação de pontos
+    Console.WriteLine();  
 }
 
 }

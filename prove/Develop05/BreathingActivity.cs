@@ -29,18 +29,21 @@ public class BreathingActivity : Activity
 
 private void ShowAnimation()
 {
-    string dots = "";
-    int count = 0;
-    
-    while (count < 3)
+    for (int i = 1; i <= 3; i++)
     {
-        dots += ".";  
-        Console.Write(dots); 
-        Thread.Sleep(1500);  /
-        Console.Write("\b \b"); 
-        count++; 
+        string dots = new string('.', i);
+
+        Console.Write(dots);
+
+        Thread.Sleep(1500);
+        for (int delet = 0; delet < i; delet++)
+        {
+            Console.Write("\b \b");
+        }
     }
-    Console.WriteLine();  
+
+    Console.WriteLine();
 }
+
 
 }

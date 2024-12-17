@@ -1,0 +1,3 @@
+60
+SimpleGoal:discursar,sacramental,50,True
+EternalGoal:orar,todos os dias,10

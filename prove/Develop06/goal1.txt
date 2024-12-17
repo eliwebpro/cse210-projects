@@ -1,0 +1,3 @@
+0
+SimpleGoal:livro,ler,10,False
+EternalGoal:orar,diaramente,5
